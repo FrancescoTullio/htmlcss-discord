@@ -1,0 +1,145 @@
+/**rest**/
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  /**common**/
+  .container{
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  }
+  
+  body{
+      font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .background-violet{
+      background-color: blueviolet;
+  }
+  
+  .background-blu{
+      background-color: blue;
+  }
+  
+  .background-grey{
+      background-color: gray;
+  }
+  
+  .background-red{
+      background-color: red;
+  }
+  
+  .background-pink{
+      background-color: pink;
+  }
+  
+  .background-green{
+      background-color: green;
+  }
+  
+  .background-lightblue{
+      background-color: lightblue;
+  }
+  
+  .pad-20{
+      padding: 20px;
+  }
+  
+  .pad-top{
+      padding-top: 20px;
+  }
+  
+  .border-top{
+      border-top: 2px solid white;
+  }
+  
+  /**header**/
+  /**header-fist-part**/
+  .header-bg-first{
+      height: 80px;
+  }
+  
+  .navigation{
+      display: flex;
+      min-height: 30px;
+      background-color: orange;
+  }
+  
+  .flex-item-25{
+      width: 25%;
+      border: 1px solid black;
+  }
+  
+  .flex-item-50{
+      width: 50%;
+      border: 1px solid black;
+  }
+  
+  /**header-second-part**/
+  
+  .background-hero{
+      min-height: 200px;
+      padding: 30px;
+  }
+  
+  .hero-banner{
+      min-height: 200px;
+      border: 1px solid black;
+  }
+  
+  /**main**/
+  .rectangle{
+      min-height: 300px;
+      padding: 20px;
+      display: flex;
+  }
+  
+  .flex-item-70{
+      width: 70%;
+      border: 1px solid black;
+      min-height: 100px;
+  
+  }
+  
+  .flex-item-30{
+      width: 30%;
+      border: 1px solid black;
+      min-height: 100px;
+  
+  }
+  
+  .paragraf-height{
+      min-height: 500px;
+      border: 1px solid black;
+  }
+  
+  /**footer**/
+  
+  .long-rectangle{
+      min-height: 400px;
+      border: 1px solid black;
+      display: flex;
+  }
+  
+  .big-part{
+      border: 1px solid black;
+      min-height: 400px;
+      width: 40%;
+  }
+  
+  .small-part{
+      border: 1px solid black;
+      min-height: 400px;
+      width: 15%;
+  }
+  
+  .nav-footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      border: 1px solid black;
+  }
