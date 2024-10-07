@@ -63,7 +63,7 @@
   }
   
   .background-blu{
-      background-color: #255EE9;
+      background-color: #7289da;
   }
   
   .background-grey{
@@ -137,6 +137,10 @@
 
   .testonero{
     color: black;
+  }
+
+  .testobianco{
+    color: white;
   }
 
   .centratura{
