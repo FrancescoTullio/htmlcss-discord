@@ -30,6 +30,10 @@
     max-width: 100%;
   }
 
+  h2{
+    padding-bottom: 20px;
+  }
+
 .gap{
     gap: 20px;
 }
@@ -40,6 +44,10 @@
 
 .justify-content-end{
     justify-content: end;
+}
+
+.justify-content-center{
+    justify-content: center;
 }
 
   :root{
@@ -80,6 +88,10 @@
 
   .background-white{
     background-color: white;
+  }
+
+  .background-black{
+    background-color: black;
   }
   
   .pad-20{
@@ -122,17 +134,34 @@
   .flex-item-50{
       width: 50%;
   }
+
+  .testonero{
+    color: black;
+  }
+
+  .centratura{
+    text-align: center;
+  }
+
+  .a-sinistra{
+    text-align: left;
+  }
+
+  .font-size{
+    font-size: 24px;
+    font-weight: 14px;
+  }
   
   /**header-second-part**/
   
   .background-hero{
-      min-height: 200px;
-      padding: 30px;
+      background-image: url(jumbo.png);
+      background-size: cover;
+      height: 200px;
   }
   
   .hero-banner{
-      min-height: 200px;
-      border: 1px solid black;
+    background-color: transparent;
   }
   
   /**main**/
@@ -144,16 +173,11 @@
   
   .flex-item-70{
       width: 70%;
-      border: 1px solid black;
-      min-height: 100px;
   
   }
   
   .flex-item-30{
-      width: 30%;
-      border: 1px solid black;
-      min-height: 100px;
-  
+      width: 30%;  
   }
   
   .paragraf-height{
