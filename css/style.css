@@ -67,7 +67,7 @@
   }
   
   .background-grey{
-      background-color: gray;
+      background-color: #F6F6F6;
   }
   
   .background-red{
@@ -148,8 +148,8 @@
   }
 
   .font-size{
-    font-size: 24px;
-    font-weight: 14px;
+    font-size: 30px;
+    font-weight: 16px;
   }
   
   /**header-second-part**/
