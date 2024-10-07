@@ -17,8 +17,17 @@
     color: inherit;
   }
 
+  button{
+    color: white;
+    background-color: transparent;
+  }
   ul{
     list-style: none;
+  }
+
+  h3{
+    color: #7289da;
+    margin-bottom: 15px;
   }
   
   body{
@@ -38,8 +47,20 @@
     gap: 20px;
 }
 
+.small-gap{
+    gap:5px
+}
+
 .center{
     align-items: center;
+}
+
+.margin{
+    margin: 30px;
+}
+
+.margin-left{
+    margin-left: 5px;
 }
 
 .justify-content-end{
@@ -50,12 +71,20 @@
     justify-content: center;
 }
 
+.justify-content-left{
+    justify-content: left;
+}
+
   :root{
     --blu:#255EE9
   }
 
   .row{
     display: flex;
+  }
+
+  .inline-block{
+    display: inline-block;
   }
   
   .background-violet{
@@ -78,8 +107,8 @@
       background-color: pink;
   }
   
-  .background-green{
-      background-color: green;
+  .background-darckgrey{
+      background-color: #23272a;
   }
   
   .background-lightblue{
@@ -139,6 +168,10 @@
     color: black;
   }
 
+  .testoblu{
+    color: #7289da;
+  }
+
   .testobianco{
     color: white;
   }
@@ -159,9 +192,9 @@
   /**header-second-part**/
   
   .background-hero{
-      background-image: url(jumbo.png);
+      background-image: url(../img/jumbo.png);
       background-size: cover;
-      height: 200px;
+      width: 100%;
   }
   
   .hero-banner{
@@ -191,28 +224,30 @@
   
   /**footer**/
   
-  .long-rectangle{
-      min-height: 400px;
-      border: 1px solid black;
-      display: flex;
-  }
+  
   
   .big-part{
-      border: 1px solid black;
-      min-height: 400px;
-      width: 40%;
+      width: 25%;
+  }
+
+  .littel-part{
+    width: 75%;
   }
   
   .small-part{
-      border: 1px solid black;
-      min-height: 400px;
-      width: 15%;
+      width: 25%;
   }
   
   .nav-footer{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: 60px;
-      border: 1px solid black;
+  }
+
+  .bandiera{
+    max-width: 25px;
+  }
+
+  .icone{
+    margin-top: 10px;
   }
