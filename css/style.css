@@ -193,8 +193,7 @@
   
   .background-hero{
       background-image: url(../img/jumbo.png);
-      background-size: cover;
-      width: 100%;
+      background-position: 100%;
   }
   
   .hero-banner{
